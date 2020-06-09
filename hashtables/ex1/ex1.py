@@ -1,7 +1,7 @@
 def get_indices_of_item_weights(weights, length, limit):
-    # limit - package's wait limit
-    # weigts - an array of items weigts
-    # length - len(weigts)
+    # limit - package's weight limit
+    # weigts - an array of items weights
+    # length - len(weights)
 
     answer = ()
     weights_dict = {}
@@ -37,7 +37,7 @@ def get_indices_of_item_weights(weights, length, limit):
         #  with it's index as the value
         weights_dict[weight] = i
 
-    # Return answer (touple) (0,1)
+    # Return answer (tuple) (0,1)
 
     # If we got an answer, return answer
     if answer != ():
